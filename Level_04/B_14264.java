@@ -13,6 +13,6 @@ public class B_14264 {
 
         double S = (Math.sqrt(3) / 4) * Math.pow(L, 2);
 
-        System.out.println(S);
+        System.out.println(S); 
     }
 }
