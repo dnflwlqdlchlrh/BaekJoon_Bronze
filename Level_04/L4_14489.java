@@ -11,9 +11,9 @@ public class L4_14489 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        long A = Long.parseLong(st.nextToken());
-        long B = Long.parseLong(st.nextToken());
-        long C = Long.parseLong(br.readLine());
+        int A = Integer.parseInt(st.nextToken());
+        int B = Integer.parseInt(st.nextToken());
+        int C = Integer.parseInt(br.readLine());
 
         if(A + B < C * 2){
             System.out.println(A + B);
