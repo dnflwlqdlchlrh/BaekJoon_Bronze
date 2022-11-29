@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 /**
  * B_14173
  */
-public class B_14173 {
+public class L4_14173 {
 
     public static void main(String[] args) throws IOException{
 
