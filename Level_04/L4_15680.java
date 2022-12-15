@@ -18,7 +18,5 @@ public class L4_15680 {
         } else if(N == 1){
             System.out.println("Leading the Way to the Future");
         }
-        
     }
-    
 }
