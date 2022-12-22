@@ -11,30 +11,30 @@ public class L4_16199 {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         // 출생 날짜
-        int y1 = Integer.parseInt(st.nextToken());
-        int m1 = Integer.parseInt(st.nextToken());
-        int d1 = Integer.parseInt(st.nextToken());
+        int year1 = Integer.parseInt(st.nextToken());
+        int month1 = Integer.parseInt(st.nextToken());
+        int day1 = Integer.parseInt(st.nextToken());
 
         st = new StringTokenizer(br.readLine());
 
         // 현재 날짜
-        int y2 = Integer.parseInt(st.nextToken());
-        int m2 = Integer.parseInt(st.nextToken());
-        int d2 = Integer.parseInt(st.nextToken());
+        int year2 = Integer.parseInt(st.nextToken());
+        int month2 = Integer.parseInt(st.nextToken());
+        int day2 = Integer.parseInt(st.nextToken());
 
         // 연 나이
-        int age = y2 - y1;
+        int age = year2 - year1;
 
 		// 만 나이
-        if(y1 == y2) {	
+        if(year1 == year2) {	
 			// 만 나이와 연 나이가 0살 일 때
 			System.out.println(age);
 		}else{
-			if(m1 > m2) {	
+			if(month1 > month2) {	
 				// 출생 달이 현재 달 보다 크다면 생일이 아직 지나지 않았기 때문에 연 나이 보다 한 살 어리다.
 				System.out.println(age - 1);
-			}else if(m1 == m2){
-				if(d1 <= d2) {
+			}else if(month1 == month2){
+				if(day1 <= day2) {
 					// 생일이거나 생일이 지났을 경우라면 연 나이와 만 나이가 같다
 					System.out.println(age);
 				}else {
